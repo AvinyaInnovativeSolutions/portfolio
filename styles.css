@@ -1,0 +1,22 @@
+body {
+    background-color: #3C486B;
+}
+
+h1.greeting { 
+    color: #F0F0F0;
+    text-align: center;
+    font-size: larger;
+    background-color: #FF8B13;
+}
+
+p.Introduction {
+    text-align : right;
+    margin-left: 200px;
+}
+
+img.profile_pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 80%;
+    float: left;  
+}
