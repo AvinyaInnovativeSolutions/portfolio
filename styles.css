@@ -2,12 +2,18 @@ body {
     background-color: #3C486B;
 }
 
-h1.greeting {
+.greeting {
     color: #F0F0F0;
-    text-align: center;
+    flex-wrap: wrap;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     background-color: #FF8B13;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 p.Introduction {
@@ -27,15 +33,23 @@ p {
 }
 
 img.profile_pic {
+    display: flex;
     width: 160px;
     height: 160px;
     border-radius: 80%;
-    float: left;
-    margin-top: -140px;
     border-style: solid;
     border-color: #FF8B13;
 }
 
-.CHEMeaseTRY {
-    text-align: right;
+.introduction {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.projects {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 2px solid black;
 }
