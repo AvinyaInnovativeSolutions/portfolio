@@ -1,7 +1,3 @@
-class Projects extends HTMLElement{
-    constructor() {
-        super();
-    }
-}
-
-customElements.define("project", Projects)
+var temp = document.getElementsByTagName("template");
+var clone = temp.content.cloneNode(true);
+document.body.appendChild(clone)
